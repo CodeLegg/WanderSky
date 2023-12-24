@@ -42,3 +42,17 @@ justify-content: space-between;
 align-items: center;
 }
 
+.logo-wrapper {
+  flex-basis: 155px;
+  height: 90px;
+  margin: 0px;
+  display: flex;
+}
+
+.logo {
+  flex-basis: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
