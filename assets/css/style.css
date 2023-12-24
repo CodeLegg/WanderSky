@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Futura PT Heavy";
+}
+
+:root {
+  --white: #ffffff;
+  --orange-color-1: #db380f;
+  --orange-color-2: #fd5e37;
+  --peach-color: #f8735d;
+  --grey-color: #3c3c3b;
+  --yellow-color: #fcc75d;
+  --orange-color-1: #fd5e37;
+}
+
+body {
+  height: 100vh;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo {
+  width: 150px;
+}
+
