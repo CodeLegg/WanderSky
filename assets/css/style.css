@@ -1,3 +1,4 @@
+/* Reset-styles */
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +6,7 @@
   font-family: "Futura PT Heavy";
 }
 
+/* Color-root */
 :root {
   --white: #ffffff;
   --dark-orange: #db380f;
@@ -18,22 +20,22 @@
 body {
   background-color: #c7c7c7;
 }
+/*-----------------------------------*\
+  #REUSABLE-CLASSES
+\*-----------------------------------*/
 
+/* Fontawesome-icon-color-&-t-dec */
 a {
   text-decoration: none;
   color: var(--dark-orange);
 }
 
+/* Fontawesome-icon-font-size */
 i {
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
 
-.chev-down {
-  font-size: 1em;
-  color: var(--grey-color);
-  padding-left: 2px;
-}
-
+/* Button-styles  */
 button {
   background-color: var(--dark-orange);
   border: none;
@@ -50,32 +52,40 @@ button {
     rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
 }
 
-.top-nav {
-  background-color: var(--white);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-
+/* Container-padding-&-width */
 .container {
   max-width: calc(1500px + 60px);
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
 }
+/*-----------------------------------*\
+  #TOP NAVIGATION STYLES START
+\*-----------------------------------*/
 
+/* Top-navigation-color-and-shadow */
+.top-nav {
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+/* Flex-Container-padding-&-width */
 .container-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Logo-wrapper-flex-item */
 .logo-wrapper {
   flex-basis: 155px;
-  height: 90px;
+  height: 100px;
   margin: 0px;
   display: flex;
 }
 
+/* Logo-flex-item */
 .logo {
   flex-basis: 130px;
   display: flex;
@@ -83,6 +93,7 @@ button {
   align-items: center;
 }
 
+/* fav-heart-flex-item */
 .fav-heart {
   flex-basis: 100px;
   height: 50px;
@@ -94,6 +105,7 @@ button {
   margin-left: 50px;
 }
 
+/* slogan-flex-item */
 .slogan-container {
   flex-basis: 450px;
   height: 50px;
@@ -104,24 +116,28 @@ button {
 }
 
 .slogan-inner-container {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: var(--grey-color);
 }
 
+/* slogan-flex-item */
 .bottom-slogan-wrapper {
   display: flex;
   justify-content: center;
 }
 
+/* slogan-span */
 .bottom-slogan-txt-small {
   font-size: 0.8em;
 }
 
+/* slogan-bold-number */
 .bold {
   font-family: "Futura PT Heavy Italic W08 Rg";
   font-weight: 700;
 }
 
+/* user-signin-flex-item */
 .user-signin {
   flex-basis: 100px;
   height: 50px;
@@ -130,12 +146,24 @@ button {
   align-items: center;
   justify-content: center;
   margin-right: 50px;
+  
 }
 
+/* signin-text-color */
 .signin-color {
   color: var(--grey-color);
+  font-family: "Futura PT Heavy Italic W08 Rg";
 }
 
+/* Fontawesome-icon-font-size color & padding*/
+.chev-down {
+  font-size: 1em;
+  color: var(--grey-color);
+  padding-left: 2px;
+  padding-top: 8px;
+}
+
+/* Button-flex-item */
 .button-container {
   flex-basis: 155px;
   height: 50px;
