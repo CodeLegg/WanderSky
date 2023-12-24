@@ -93,3 +93,13 @@ a {
 .bold {
     font-family: "Futura PT Heavy Italic W08 Rg";
 font-weight: 700;}
+
+.user-signin {
+  flex-basis: 100px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
