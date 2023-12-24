@@ -56,3 +56,14 @@ align-items: center;
   align-items: center;
 }
 
+.fav-heart {
+  flex-basis: 100px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 50px;
+}
+
