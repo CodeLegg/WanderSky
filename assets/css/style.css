@@ -67,3 +67,11 @@ align-items: center;
   margin-left: 50px;
 }
 
+.slogan-container {
+  flex-basis: 450px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
