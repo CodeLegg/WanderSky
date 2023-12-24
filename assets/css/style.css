@@ -230,7 +230,6 @@ display: flex-end;} */
 .search-box {
   height: 40px;
   display: flex;
-  justify-content: end;
 }
 .search-box input {
   height: 100%;
