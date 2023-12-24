@@ -81,3 +81,7 @@ a {
   font-size: 1.2em;
   color: var(--grey-color);
 }
+
+.bottom-slogan-wrapper{
+  display: flex;
+  justify-content: center;}
