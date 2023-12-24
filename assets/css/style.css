@@ -19,27 +19,28 @@ body {
   height: 100vh;
 }
 
-a{
+a {
   text-decoration: none;
-color:var(--dark-orange);
+  color: var(--dark-orange);
 }
 
-.top-nav{
-  background-color:var(--white);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+.top-nav {
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .container {
   max-width: calc(1500px + 60px);
-margin: 0 auto;
-padding-left: 30px;
-padding-right: 30px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .container-inner {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-wrapper {
@@ -74,4 +75,9 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.slogan-inner-container {
+  font-size: 1.2em;
+  color: var(--grey-color);
 }
