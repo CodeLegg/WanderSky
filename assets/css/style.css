@@ -85,3 +85,11 @@ a {
 .bottom-slogan-wrapper{
   display: flex;
   justify-content: center;}
+
+  .bottom-slogan-txt-small{
+    font-size: 0.8em;
+}
+
+.bold {
+    font-family: "Futura PT Heavy Italic W08 Rg";
+font-weight: 700;}
