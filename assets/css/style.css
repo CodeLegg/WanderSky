@@ -250,7 +250,6 @@ ul li {
 .search-box input::placeholder {
   color: var(--white);
   opacity: 0.8;
-  /* font-size: 1.1em; */
 }
 
 .search-box > :nth-child(1) {
@@ -263,11 +262,20 @@ ul li {
 
 .search-box > :nth-child(3) {
   order: 1;
-  opacity: 0;
 }
 
-.container-inner-nav :nth-child(7) {
+
+/*-----------------------------------*\
+  #JAVASCRIPT CLASSES
+\*-----------------------------------*/
+
+.search-box-expand{
+  flex-grow: 1;
 }
+
+.hide{display: none;}
+
+.cancel-btn{opacity: 0;}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
@@ -365,3 +373,4 @@ ul li {
     padding-right: 10px;
   }
 }
+
