@@ -53,7 +53,7 @@ i {
     rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
 }
 
-.search-btn{ font-size: 1.1rem;}
+.search-btn{ font-size: 1rem;}
 
 .cancel-btn{font-size: 1.1rem;}
 /* Container-padding-&-width */
@@ -171,7 +171,7 @@ i {
 }
 
 /* Fontawesome-icon-font-size color & padding*/
-.chev-down {
+.sign-in-chevdown {
   font-size: 1em;
   color: var(--grey-color);
   padding-left: 2px;
@@ -209,6 +209,8 @@ ul li {
   padding-right: 20px;
   margin-left: auto;
 }
+
+
 
 .bottom-nav {
   background: var(--light-orange);
@@ -254,6 +256,7 @@ ul li {
 .search-box input::placeholder {
   color: var(--white);
   opacity: 0.8;
+  font-size: 0.98rem;
 }
 
 .search-box > :nth-child(1) {
@@ -337,7 +340,7 @@ ul li {
     flex-basis: 100px;
   }
 
-  i {
+  .top-nav i {
     font-size: 1.2em;
   }
 
@@ -347,7 +350,7 @@ ul li {
     white-space: nowrap;
   }
 
-  .chev-down {
+  .sign-in-chevdown {
     font-size: 0.8em;
     color: var(--grey-color);
     padding-left: 2px;
